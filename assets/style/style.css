@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tittle-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+.label-for-input
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.flex-for-input
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+}
+.calculator
+{
+    width: 100%;
+    height: 100%;
+}
+.InputOne
+{
+    text-align: center;
+    border-radius: 30px;
+    width: 200px;
+}
+.InputTwo
+{
+    text-align: center;
+    border-radius: 30px;
+    width: 200px;
+}
+.tittle-input
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ButtonBtn
+{
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.result
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.end-tit
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    transition: all 0.3s linear;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.link:hover{
+    color:red;
+}
