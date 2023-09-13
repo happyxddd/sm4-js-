@@ -2,6 +2,8 @@ const InputOne = document.querySelector('.InputOne');
 const InputTwo = document.querySelector('.InputTwo');
 const ButtonBtn = document.querySelector('.ButtonBtn');
 const endResult = document.querySelector('.end');
+InputOne.style.width = "250px"
+InputTwo.style.width = "250px"
 
 let action = '+';
 
